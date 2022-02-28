@@ -1,0 +1,38 @@
+header {
+  height: 200px;
+  background-color: #00ccaa;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat-x;
+}
+#logo {
+  padding-top: 110px;
+  padding-left: 20px;
+  height: 70px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: left;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+p {
+  margin-bottom: 5%;
+}
+span {
+  background-color: yellow;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: aqua;
+  text-align: center;
+  margin-right: 100%;
+}
+tr:nth-child(odd) {
+  background-color: rgba(0, 0, 100, 0.5);
+}
